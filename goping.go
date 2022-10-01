@@ -27,7 +27,7 @@ func main() {
 
         // Make sure the user has the correct number of arguments
         if len(os.Args) < 4 {
-                fmt.Printf("Usage: ./%v <ip> <port> <count> <delay ex: 5s, 5m, 2s, 2h> <thrshold> \n", filename)
+                fmt.Printf("Usage: ./%v <ip> <port> <count> <delay ex: 5s, 5m, 2s, 2h> <threshold> \n", filename)
                 return
         }
 
